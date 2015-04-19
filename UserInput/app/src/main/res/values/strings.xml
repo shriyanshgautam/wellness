@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UserInput</string>
+    <string name="name_textView">(Name)</string>
+    <string name="email_textView">(Email)</string>
+    <string name="phone_textView">(Phone)</string>
+    <string name="address_textView">(Address)</string>
+    <string name="enter_details">Enter your Details</string>
+
+    <string name="button_next">Next</string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_temp">temp</string>
+    <string name="title_activity_my_track">MyTrack</string>
+    <string name="title_activity_create_challenge">CreateChallenge</string>
+    <string name="title_activity_challenges">Challenges</string>
+</resources>

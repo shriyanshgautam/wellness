@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nthvidusha.userinput" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".MyTrack"
+            android:label="@string/title_activity_my_track" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateChallenge"
+            android:label="@string/title_activity_create_challenge"
+            android:parentActivityName=".MyTrack" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nthvidusha.userinput.MyTrack" />
+        </activity>
+        <activity
+            android:name=".Challenges"
+            android:label="@string/title_activity_challenges" >
+        </activity>
+    </application>
+
+</manifest>
